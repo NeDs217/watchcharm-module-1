@@ -4,77 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WatchCharm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- #region header -->
     <header>
-      <a href="./index.html">watchcharm</a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Catalog</a></li>
-          <li><a href="">Sale</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Contact Us</a></li>
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">watchcharm</a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li><a class="header-nav-link" href="">Home</a></li>
+            <li><a class="header-nav-link" href="">About Us</a></li>
+            <li><a class="header-nav-link" href="">Catalog</a></li>
+            <li><a class="header-nav-link" href="">Sale</a></li>
+            <li><a class="header-nav-link" href="">Reviews</a></li>
+            <li><a class="header-nav-link" href="">Contact Us</a></li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li>
+            <a class="header-social-item" href="" target="_blank">
+              <img
+                src="./images/header/facebook.svg"
+                alt="facebook"
+                width="36"
+                height="36"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="header-social-item" href="" target="_blank">
+              <img
+                src="./images/header/inst.svg"
+                alt="instagram"
+                width="36"
+                height="36"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="header-social-item" href="" target="_blank">
+              <img
+                src="./images/header/yutube.svg"
+                alt="youtube"
+                width="36"
+                height="36"
+              />
+            </a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="" target="_blank">
-            <img
-              src="./images/header/facebook.svg"
-              alt="facebook"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="" target="_blank">
-            <img
-              src="./images/header/inst.svg"
-              alt="instagram"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="" target="_blank">
-            <img
-              src="./images/header/yutube.svg"
-              alt="youtube"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- #endregion header -->
     <main>
       <!-- #region hero -->
-      <section>
-        <h1>Welcome to our collection of premium watches</h1>
-        <p>
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <img
-          src="./images/main/section_hero/people.png"
-          alt="people"
-          width="146"
-          height="60"
-        />
-        <a href="">Scroll down</a>
-        <img
-          src="./images/main/section_hero/watches_hero.png"
-          alt="Watches"
-          width="1150"
-          height="500"
-        />
+      <section class="hero-section">
+        <div class="container hero-conteiner">
+          <h1 class="hero-title">
+            Welcome to our
+            <span class="accent">collection</span>
+            of premium watches
+          </h1>
+          <p class="hero-text">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+          <img
+            src="./images/main/section_hero/people.png"
+            alt="people"
+            width="146"
+            height="60"
+          />
+          <a class="hero-link-down" href="">Scroll down</a>
+          <img
+            src="./images/main/section_hero/watches_hero.png"
+            alt="Watches"
+            width="1150"
+            height="500"
+          />
+        </div>
       </section>
       <!-- #endregion hero -->
       <!-- #region about us -->
